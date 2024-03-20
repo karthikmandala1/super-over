@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super over</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="display">
+        <div class="match-card">
+            <h1 class="title">Super over match</h1>
+            <div class="teams">
+                <img id ="rcb-img" src="https://i.pinimg.com/originals/b4/d4/45/b4d445dc10ee1804a8221139b4ede86f.jpg" alt="RCB">
+                <div id="score">
+                    <h1 id="rcb-score">0</h1>
+                    <h1>&nbsp;-&nbsp;</h1>
+                    <h1 id="csk-score"> 0 </h1>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6s3tHAKwV0qY1nfbPBIqwOErojh7vL6J3ZipbMqm8O5JYhU3gb3eyfkn9jvjrg97HSXY&usqp=CAU" alt="CSK">
+            </div>
+            <div class="runs">
+                <div class="rcb-runs">
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                </div>
+                <div class="csk-runs">
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="play" value="strike" onclick="playSuperOver();">Strike</button>
+                <button id="reset" onclick="window.location.reload();">Refresh</button>
+            </div>
+            <h1 id="res">Waiting for Result</h1>
+        </div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
